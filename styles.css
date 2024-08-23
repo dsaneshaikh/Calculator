@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree";
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 550px;
+  width: 330px;
+  border: 1px solid grey;
+  background-color: #4fb074;
+  border: 5px solid #072630;
+  border-radius: 20px;
+}
+
+.result {
+  height: 220px;
+  margin: 0 10px 22px 0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  justify-items: center;
+  gap: 10px;
+}
+
+button {
+  color: aliceblue;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+#equal {
+  grid-column: span 2;
+  width: 130px;
+}
+
+.result {
+  max-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.number {
+  background-color: #9bdab3;
+  font-size: 20px;
+}
+
+button {
+  background-color: #68bd8a;
+  border: none;
+  border-radius: 8px;
+  font-size: 25px;
+}
+
+#Delete {
+  background-color: #072630;
+}
+
+#equal {
+  background-color: #ffffff;
+  color: #072630;
+}
+
+#main_result {
+  font-size: 65px;
+  color: #ffffff;
+}
+
+#expression {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+img {
+  height: 50px;
+  fill: #ffffff;
+}
+
+svg {
+  height: 30px;
+  margin: 15px 0 0 15px;
+  fill: #ffffff;
+}
+
+#settings {
+  position: relative;
+  left: 224px;
+}
+
+button:hover {
+  filter: brightness(0.9) saturate(1.2);
+}
